@@ -33,6 +33,26 @@
 .text22{
     text-align: center;
 }
+.listed li{
+    background:rgba(118, 102, 85, 0.568);
+    padding: 20px;
+    border-radius: 10px;
+}
+.listed{
+display: flex;
+flex-direction: column;
+gap: 15px;
+margin: 0 auto;
+width: 90%;
+}
+.hext h3{
+    color: #ffe;
+}
+.hext{
+    padding: 30px;
+    text-align: center;
+}
+
 
 @media screen and (max-width:1200px) {
     .whole1{
