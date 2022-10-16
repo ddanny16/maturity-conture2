@@ -1,7 +1,6 @@
 import React from "react";
 import "./FooterStyles.scss";
-// import Footerlogo from "../../Assets/svgs/surgicareLogo.svg";
-import Allec from "../assets/allec.jpg"
+
 
 const Footer = () => {
   return (
@@ -17,26 +16,32 @@ const Footer = () => {
         <li>
           <i class="fa-brands fa-whatsapp"></i>
         </li>
-        <li>
+        <li >
           <i class="fa-brands fa-instagram"></i>
         </li>
         <li>
           <i class="fa-brands fa-twitter"></i>
         </li>
+        <li>
+          <i class="fa-brands fa-skype"></i>
+        </li>
+        <li>
+        <i class="fa-brands fa-google-plus-g"></i>       
+         </li>
       </ul>
 
       <div className="mainFooter">
         <div className="footerLinks">
           <div className="surgicarelogo">
-            <img src={Allec} alt="surgicare logo" />
+            <h1>Maturity Couture</h1>
           </div>
 
           <div className="footerLink">
-            <p>What we do:</p>
+            <p>•	Address: </p>
             <ul>
-              <li>Sugeries</li>
-              <li>Medical consultation</li>
-              <li>Personal therapy</li>
+              <li>Lagos State</li>
+              <li>Ogun State</li>
+              <li>Ondo State</li>
             </ul>
           </div>
 
