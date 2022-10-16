@@ -11,24 +11,24 @@ const Footer = () => {
       </div>
 
       <ul className="social-media">
-        <li className="social-media_links">
+        <a href="/" className="social-media_links">
           <i class="fa-brands fa-facebook-f" aria="hidden"></i>
-        </li>
-        <li>
+        </a>
+        <a href="/">
           <i class="fa-brands fa-whatsapp"></i>
-        </li>
-        <li >
+        </a>
+        <a href="/">
           <i class="fa-brands fa-instagram"></i>
-        </li>
-        <li>
+        </a>
+        <a href="/">
           <i class="fa-brands fa-twitter"></i>
-        </li>
-        <li>
+        </a>
+        <a href="/">
           <i class="fa-brands fa-skype"></i>
-        </li>
-        <li>
+        </a>
+        <a href="/">
         <i class="fa-brands fa-google-plus-g"></i>       
-         </li>
+         </a>
       </ul>
 
       <div className="mainFooter">
