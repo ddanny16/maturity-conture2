@@ -1,0 +1,34 @@
+.h2_nill {
+  text-align: center;
+  color: #ffe;
+  padding: 30px;
+}
+
+.mini {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  position: relative;
+  top: 50%;
+  gap: 10px;
+  text-align: center;
+}
+
+.h3_text {
+  font-size: 20px;
+  color: #ffe;
+}
+
+.btn1 {
+  padding: 10px;
+  background: rgba(118, 102, 85, 0.568);
+  color: #ffe;
+  border: none;
+}
+.btn1:hover {
+  color: black;
+  background-color: rgb(35, 35, 35);
+  border-radius: 10px;
+}/*# sourceMappingURL=SectionSlideStyle.css.map */
