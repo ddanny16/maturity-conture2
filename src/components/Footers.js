@@ -1,6 +1,7 @@
 import React from "react";
 import "./FooterStyles.scss";
 // import Footerlogo from "../../Assets/svgs/surgicareLogo.svg";
+import Allec from "../assets/allec.jpg"
 
 const Footer = () => {
   return (
@@ -27,7 +28,7 @@ const Footer = () => {
       <div className="mainFooter">
         <div className="footerLinks">
           <div className="surgicarelogo">
-            {/* <img src={Footerlogo} alt="surgicare logo" /> */}
+            <img src={Allec} alt="surgicare logo" />
           </div>
 
           <div className="footerLink">
