@@ -1,5 +1,6 @@
 import React from "react";
 import "./FooterStyles.scss";
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -37,46 +38,30 @@ const Footer = () => {
           </div>
 
           <div className="footerLink">
-            <p>•	Address: </p>
+            <p> <Link to="/">Home</Link></p>
             <ul>
-              <li>Lagos State</li>
-              <li>Ogun State</li>
-              <li>Ondo State</li>
+              <li><Link to="/project">Product</Link></li>
+              <li><Link to="/about">About</Link></li>              
+              <li><Link to="/contact">Contact</Link></li>              
+              <li><Link to="/faqs">FAQs</Link></li>              
+              
             </ul>
           </div>
 
           <div className="footerLink">
             <p>Working Hours: 9:00AM-6:00PM (Monday – Friday)</p>
             <ul>
-              <li>Find your doctors</li>
+              <li>Find your type </li>
               <li>Partners & co.</li>
-              <li>Clinics</li>
+              <li>Stores</li>
             </ul>
           </div>
 
-          <div className="footerLink">
-            <p>Join our team:</p>
-            <ul>
-              <li>News & events</li>
-              <li>Contact us</li>
-              <li>Comments & Testimonies</li>
-            </ul>
-          </div>
+        
         </div>
       </div>
 
-      <div className="copyright">
-        <ul>
-          <li>©2022 Surgicare Consult Hospital. All rights reserved.</li>
-          <li>Terms & Conditions.</li>
-          <li>Privacy Policy</li>
-        </ul>
-      </div>
 
-      {/* <div className="builder">
-        Built by Ghap
-        <p>+2347054779293</p>
-      </div> */}
     </footer>
   );
 };
