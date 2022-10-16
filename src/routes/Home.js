@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar'
 import SectionSlide from '../components/SectionSlide'
 import IntroImj from "../assets/diego.jpg"
 import Aboutus from "../components/Aboutus"
+import Footer from '../components/Footers'
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <SectionSlide />
 
       <Aboutus />
+      <Footer />
 
     </div>
   )
