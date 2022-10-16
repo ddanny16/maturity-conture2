@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
 
           <div className="footerLink">
-            <p>Get to know us:</p>
+            <p>Working Hours: 9:00AM-6:00PM (Monday – Friday)</p>
             <ul>
               <li>Find your doctors</li>
               <li>Partners & co.</li>
