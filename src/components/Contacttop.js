@@ -33,7 +33,7 @@ const Contacttop = () => {
               </div>
               <div className="email">
                 <h4>
-                  <a href="mailto:temmydammy16@gmail.com"> <FaMailBulk size={20} style={{ color: "#fff", marginRight: "2rem" }} />
+                  <a href="mailto:maturitycouture@gmail.com"> <FaMailBulk size={20} style={{ color: "#fff", marginRight: "2rem" }} />
                     maturitycouture@gmail.com</a>
                 </h4>
               </div>
