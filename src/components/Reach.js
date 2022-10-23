@@ -11,11 +11,11 @@ const Reach = () => {
 
     emailjs.sendForm('service_78k9ero', 'template_ej61jzd', form.current, 'nXv22qjACTxRpoQke')
       .then((result) => {
-          console.log(result.text);
+        console.log(result.text);
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
       });
-      e.target.reset();
+    e.target.reset();
   };
 
   return (
@@ -98,6 +98,17 @@ const Reach = () => {
               />
             </div>
           </div>
+{/* 
+          <div className="form-group">
+            <div>
+              <label htmlFor="msg">Message</label>
+            </div>
+            <div className="input-group">
+              <textarea name="msg" id="msg" rows="1" placeholder="Type your message here" />
+            </div>
+          </div> */}
+          
+
 
           <div className="form-group">
             <div>
@@ -109,6 +120,7 @@ const Reach = () => {
           </div>
 
           <div className="btn-submit">
+            
             <button type="submit">Submit</button>
           </div>
         </form>
