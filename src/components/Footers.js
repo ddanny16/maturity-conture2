@@ -14,7 +14,7 @@ const Footer = () => {
         <a href="https://web.facebook.com/search/groups/?q=maturity%20couture&sde=AbotKqEx6VFO7Xg9wiFDgE3hDSnw1teizHLB49vZpXF3bLbxyZ0OOuvrfrGEGCpzofDakrn8opGG9ML5UM4eRoBs" className="social-media_links">
           <i class="fa-brands fa-facebook-f" aria="hidden"></i>
         </a>
-        <a href="/">
+        <a href="https://wa.me/+2348033873112">
           <i class="fa-brands fa-whatsapp"></i>
         </a>
         <a href="/">
