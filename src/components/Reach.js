@@ -53,19 +53,13 @@ const Reach = () => {
               />
             </div>
           </div>
-
+          
           <div className="form-group">
             <div>
-              <label htmlFor="phone">Phone No</label>
+              <label htmlFor="date">Date</label>
             </div>
             <div className="input-group">
-              <input
-                type="text"
-                name="phone"
-                id="phone"
-                placeholder="Enter your phone number"
-                required
-              />
+              <input type="date" name="date" id="date" required />
             </div>
           </div>
 
@@ -98,7 +92,12 @@ const Reach = () => {
               />
             </div>
           </div>
-{/* 
+
+
+
+
+
+
           <div className="form-group">
             <div>
               <label htmlFor="msg">Message</label>
@@ -106,21 +105,10 @@ const Reach = () => {
             <div className="input-group">
               <textarea name="msg" id="msg" rows="1" placeholder="Type your message here" />
             </div>
-          </div> */}
-          
-
-
-          <div className="form-group">
-            <div>
-              <label htmlFor="date">Date</label>
-            </div>
-            <div className="input-group">
-              <input type="date" name="date" id="date" required />
-            </div>
           </div>
 
           <div className="btn-submit">
-            
+
             <button type="submit">Submit</button>
           </div>
         </form>
