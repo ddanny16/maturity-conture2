@@ -16,7 +16,7 @@ const Contacttop = () => {
               <div className="location">
                 <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
                 <div>
-                  <p>	<h4>Address</h4> </p>
+                  <p><h4>Address</h4> </p>
                   <p>
                     <li>   Lagos State:</li>
                     <li>   Ogun State:</li>

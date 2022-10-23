@@ -34,16 +34,16 @@ const Footer = () => {
       <div className="mainFooter">
         <div className="footerLinks">
           <div className="surgicarelogo">
-            <h1>Maturity Couture</h1>
+            <h1 className="linko">Maturity Couture</h1>
           </div>
 
           <div className="footerLink">
-            <p> <Link to="/">Home</Link></p>
+            <p> <Link className="linko" to="/">Home</Link></p>
             <ul>
-              <li><Link to="/project">Product</Link></li>
-              <li><Link to="/about">About</Link></li>              
-              <li><Link to="/contact">Contact</Link></li>              
-              <li><Link to="/faqs">FAQs</Link></li>              
+              <li><Link className="linko" to="/project">Product</Link></li>
+              <li><Link className="linko" to="/about">About</Link></li>              
+              <li><Link className="linko" to="/contact">Contact</Link></li>              
+              <li><Link className="linko" to="/faqs">FAQs</Link></li>              
               
             </ul>
           </div>
@@ -51,9 +51,9 @@ const Footer = () => {
           <div className="footerLink">
             <p>Working Hours: 9:00AM-6:00PM (Monday – Friday)</p>
             <ul>
-              <li>Find your type </li>
-              <li>Partners & co.</li>
-              <li>Stores</li>
+              <li className="linko">Find your type </li>
+              <li className="linko">Partners & co.</li>
+              <li className="linko">Stores</li>
             </ul>
           </div>
 
