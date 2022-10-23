@@ -62,7 +62,7 @@ const SectionSlide = () => {
       <h2 className='h2_nill'>
         A view of some of our products
       </h2>
-      <Carousel dot={MyDot} cols={6} rows={1} gap={10} loop>
+      <Carousel dot={MyDot} cols={7} rows={1} gap={10} loop>
         <Carousel.Item>
           <img width="100%" height="100%" src={Drive2} alt="/" />
         </Carousel.Item>
@@ -73,7 +73,7 @@ const SectionSlide = () => {
           <img width="100%" height="100%" src={Berret} alt="/" />
         </Carousel.Item>
         <Carousel.Item>
-          <img width="100%" height="100%" src={Btn} alt="/" />      </Carousel.Item>
+          <img width="100%" height="100%" src={Btn} alt="/" />       </Carousel.Item>
         <Carousel.Item>
           <img width="100%" height="100%" src={Caf} alt="/" />
         </Carousel.Item>
@@ -183,7 +183,7 @@ const SectionSlide = () => {
           <img width="100%" height="100%" src={Ties} alt="/" />
         </Carousel.Item>
         <Carousel.Item>
-          <img width="100%" height="100%" src={Tieclip} alt="/"/>
+          <img width="100%" height="100%" src={Tieclip} alt="/" />
         </Carousel.Item>
         <Carousel.Item>
           <div className="mini">
