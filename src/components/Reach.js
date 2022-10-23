@@ -53,7 +53,7 @@ const Reach = () => {
               />
             </div>
           </div>
-          
+
           <div className="form-group">
             <div>
               <label htmlFor="date">Date</label>
@@ -103,7 +103,7 @@ const Reach = () => {
               <label htmlFor="msg">Message</label>
             </div>
             <div className="input-group">
-              <textarea name="msg" id="msg" rows="1" placeholder="Type your message here" />
+              <textarea name="msg" id="msg" rows="1" placeholder="Type your message here" required />
             </div>
           </div>
 
