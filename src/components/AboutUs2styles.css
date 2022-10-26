@@ -15,7 +15,7 @@
 }
 
 .part1 {
-  background: rgba(118, 102, 85, 0.568);
+  background: #766655;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,6 +31,29 @@
 }
 
 .text22 {
+  text-align: center;
+}
+
+.listed li {
+  background: #766655;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.listed {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.hext h3 {
+  color: #ffe;
+}
+
+.hext {
+  padding: 30px;
   text-align: center;
 }
 

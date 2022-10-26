@@ -17,8 +17,8 @@ const Footer = () => {
         <a href="https://wa.me/+2348033873112">
           <i class="fa-brands fa-whatsapp"></i>
         </a>
-        <a href="/">
-          <i class="fa-brands fa-instagram"></i>
+        <a href="https://mail.google.com/mail/u/0/#inbox">
+          <i class="fa-regular fa-envelope"></i>
         </a>
         {/* <a href="/">
           <i class="fa-brands fa-twitter"></i>

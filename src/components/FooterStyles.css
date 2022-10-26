@@ -1,1 +1,263 @@
-/*# sourceMappingURL=FooterStyles.css.map */
+.footerText {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 10px;
+}
+
+.footerText p {
+  font-size: 1.25rem;
+  color: #5b360f;
+}
+
+.linko {
+  color: #5b360f;
+}
+
+footer .social-media {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.social-media a {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.social-media a:nth-child(1) {
+  -webkit-text-stroke: 2px #3b5998;
+}
+
+.social-media a:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  transition: 0.4s ease-in-out;
+  font-family: fontAwesome;
+  text-align: center;
+  line-height: 120px;
+  font-size: 6em;
+  color: #3b5998;
+  overflow: hidden;
+  border-bottom: 4px solid #3b5998;
+}
+
+.social-media a:nth-child(2) {
+  -webkit-text-stroke: 2px #25d366;
+}
+
+.social-media a:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  transition: 0.4s ease-in-out;
+  font-family: fontAwesome;
+  text-align: center;
+  line-height: 120px;
+  font-size: 6em;
+  color: #25d366;
+  overflow: hidden;
+  border-bottom: 4px solid #25d366;
+}
+
+.social-media a:nth-child(3) {
+  -webkit-text-stroke: 2px #b6dd2a;
+}
+
+.social-media a:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  transition: 0.4s ease-in-out;
+  font-family: fontAwesome;
+  text-align: center;
+  line-height: 120px;
+  font-size: 6em;
+  color: #b6dd2a;
+  overflow: hidden;
+  border-bottom: 4px solid #b6dd2a;
+}
+
+.social-media a:nth-child(4) {
+  -webkit-text-stroke: 2px #00aced;
+}
+
+.social-media a:nth-child(4)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  transition: 0.4s ease-in-out;
+  font-family: fontAwesome;
+  text-align: center;
+  line-height: 120px;
+  font-size: 6em;
+  color: #00aced;
+  overflow: hidden;
+  border-bottom: 4px solid #00aced;
+}
+
+.social-media a:nth-child(5) {
+  -webkit-text-stroke: 2px #0072ed;
+}
+
+.social-media a:nth-child(5)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  transition: 0.4s ease-in-out;
+  font-family: fontAwesome;
+  text-align: center;
+  line-height: 120px;
+  font-size: 6em;
+  color: #0072ed;
+  overflow: hidden;
+  border-bottom: 4px solid #0072ed;
+}
+
+.social-media a:nth-child(6) {
+  -webkit-text-stroke: 2px #ed7600;
+}
+
+.social-media a:nth-child(6)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  transition: 0.4s ease-in-out;
+  font-family: fontAwesome;
+  text-align: center;
+  line-height: 120px;
+  font-size: 6em;
+  color: #ed7600;
+  overflow: hidden;
+  border-bottom: 4px solid #ed7600;
+}
+
+.social-media a .fa-brands {
+  font-size: 6em;
+  color: transparent;
+}
+
+.social-media a .fa-regular {
+  font-size: 6em;
+  color: transparent;
+}
+
+.social-media a:hover::before {
+  height: 100%;
+}
+
+.social-media a:nth-child(1)::before {
+  content: "\f09a";
+}
+
+.social-media a:nth-child(2)::before {
+  content: "\f232";
+}
+
+.social-media a:nth-child(3)::before {
+  content: "\f0e0";
+}
+
+.social-media a:nth-child(4)::before {
+  content: "\f099";
+}
+
+.social-media a:nth-child(5)::before {
+  content: "\f17e";
+}
+
+.social-media a:nth-child(6)::before {
+  content: "\f0d5";
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 5rem auto;
+}
+
+.footerLink p {
+  color: #5b360f;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.footerLink ul a {
+  padding: 1rem 0;
+}
+
+.copyright ul {
+  border-top: 1px solid #766655;
+  width: 90%;
+  margin: auto;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright ul a {
+  color: #766655;
+}
+
+.builder {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  footer .social-media {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .surgicarelogo {
+    margin-bottom: 3rem;
+  }
+  .footerLinks {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .footerLink {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  footer .social-media {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .copyright ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .copyright ul a {
+    padding: 1rem 0;
+    text-align: center;
+  }
+}/*# sourceMappingURL=FooterStyles.css.map */

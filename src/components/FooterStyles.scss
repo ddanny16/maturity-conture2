@@ -74,7 +74,7 @@
   }
   
   .social-media a:nth-child(3) {
-    -webkit-text-stroke: 2px #dd2a7b;
+    -webkit-text-stroke: 2px #b6dd2a;
   }
   
   .social-media a:nth-child(3)::before {
@@ -89,9 +89,9 @@
     text-align: center;
     line-height: 120px;
     font-size: 6em;
-    color: #dd2a7b;
+    color: #b6dd2a;
     overflow: hidden;
-    border-bottom: 4px solid #dd2a7b;
+    border-bottom: 4px solid #b6dd2a;
   }
   
   .social-media a:nth-child(4) {
@@ -155,7 +155,11 @@
     border-bottom: 4px solid #ed7600;
   }
   
-  .social-media a .fa-brands {
+  .social-media a .fa-brands{
+    font-size: 6em;
+    color: transparent;
+  }
+  .social-media a .fa-regular {
     font-size: 6em;
     color: transparent;
   }
@@ -171,7 +175,7 @@
     content: "\f232";
   }
   .social-media a:nth-child(3)::before {
-    content: "\f16d";
+    content: "\f0e0";
   }
   .social-media a:nth-child(4)::before {
     content: "\f099";
