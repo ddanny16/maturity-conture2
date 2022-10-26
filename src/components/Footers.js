@@ -39,7 +39,7 @@ const Footer = () => {
 
           <div className="footerLink">
             <p> <Link className="linko" to="/">Home</Link></p>
-            <ul>
+            <ul className="ullink">
               <li><Link className="linko" to="/project">Product</Link></li>
               <li><Link className="linko" to="/about">About</Link></li>
               <li><Link className="linko" to="/contact">Contact</Link></li>
@@ -49,13 +49,14 @@ const Footer = () => {
           </div>
 
           <div className="footerLink">
-            <p>Working Hours: 9:00AM-6:00PM (Monday – Friday)</p>
+            <p>Maturity Couture And Printing</p>
             <ul>
-              <li className="linko">Find your type </li>
-              <li className="linko">Partners & co.</li>
-              <li className="linko">Stores</li>
+              <li className="linko"></li>
+              <li className="linko"></li>
+              <li className="linko"></li>
             </ul>
           </div>
+
 
 
         </div>

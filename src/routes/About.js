@@ -4,6 +4,8 @@ import HeroImg from '../components/HeroImg'
 import Handshake from "../assets/handshake.jpg"
 import Aboutus from "../components/Aboutus"
 import AboutUs2 from "../components/AboutUs2"
+import Footer from "../components/Footers"
+
 
 const About = () => {
   return (
@@ -12,6 +14,7 @@ const About = () => {
       <HeroImg heading="About US" text="Our Core Values" trc={Handshake} link1="FAQs" link2="Contact" link1a="/faqs" link2a="/contact" />
       <Aboutus />
       <AboutUs2 />
+      <Footer />
     </div>
   )
 }

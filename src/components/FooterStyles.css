@@ -213,6 +213,18 @@ footer .social-media {
   padding: 1rem 0;
 }
 
+.footerLink {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ullink {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .copyright ul {
   border-top: 1px solid #766655;
   width: 90%;
@@ -231,10 +243,6 @@ footer .social-media {
 }
 
 @media (max-width: 768px) {
-  footer .social-media {
-    display: grid;
-    grid-template-columns: auto auto;
-  }
   .surgicarelogo {
     margin-bottom: 3rem;
   }
