@@ -76,6 +76,10 @@ label {
     background-color: transparent;
     border: 1px solid#5b360f;
 }
+input[placeholder]{
+    color: aliceblue;
+    background-color: aliceblue;
+}
 
 @media (max-width: 767px) {
     form {

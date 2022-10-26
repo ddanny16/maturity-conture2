@@ -30,11 +30,15 @@ const Contacttop = () => {
                   <FaPhone size={20} style={{ color: "#fff", marginRight: "2rem" }} />
                   +234 80 3387 3112,
                 </h4>
+                <h4>
+                  <FaPhone size={20} style={{ color: "#fff", marginRight: "2rem" }} />
+                  +2348022157888,
+                </h4>
               </div>
               <div className="email">
                 <h4>
-                  <a href="mailto:maturitycouture@gmail.com"> <FaMailBulk size={20} style={{ color: "#fff", marginRight: "2rem" }} />
-                    maturitycouture@gmail.com</a>
+                  <a href="mailto:belloabayomi@maturityglobal.com"> <FaMailBulk size={20} style={{ color: "#fff", marginRight: "2rem" }} />
+                    belloabayomi@maturityglobal.com</a>
                 </h4>
               </div>
 
@@ -43,13 +47,13 @@ const Contacttop = () => {
 
             <div className="right">
               <h4>
-                Working Hours: 9:00AM-6:00PM (Monday – Friday)
+                We are available
               </h4>
               <p>
                 We will reply you within 2 hours in our working time once we receive your e-mail. Please add the Read Receipt Request when you send the e-mail to us.
                 Regarding the e-mail reply.
               </p>
-             
+
             </div>
           </div>
         </div>

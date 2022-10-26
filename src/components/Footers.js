@@ -11,7 +11,7 @@ const Footer = () => {
       </div>
 
       <ul className="social-media">
-        <a href="https://web.facebook.com/search/groups/?q=maturity%20couture&sde=AbotKqEx6VFO7Xg9wiFDgE3hDSnw1teizHLB49vZpXF3bLbxyZ0OOuvrfrGEGCpzofDakrn8opGG9ML5UM4eRoBs" className="social-media_links">
+        <a href="https://www.facebook.com/maturitybrands" className="social-media_links">
           <i class="fa-brands fa-facebook-f" aria="hidden"></i>
         </a>
         <a href="https://wa.me/+2348033873112">
@@ -20,15 +20,15 @@ const Footer = () => {
         <a href="/">
           <i class="fa-brands fa-instagram"></i>
         </a>
-        <a href="/">
+        {/* <a href="/">
           <i class="fa-brands fa-twitter"></i>
         </a>
         <a href="/">
           <i class="fa-brands fa-skype"></i>
         </a>
         <a href="/">
-        <i class="fa-brands fa-google-plus-g"></i>       
-         </a>
+          <i class="fa-brands fa-google-plus-g"></i>
+        </a> */}
       </ul>
 
       <div className="mainFooter">
@@ -41,10 +41,10 @@ const Footer = () => {
             <p> <Link className="linko" to="/">Home</Link></p>
             <ul>
               <li><Link className="linko" to="/project">Product</Link></li>
-              <li><Link className="linko" to="/about">About</Link></li>              
-              <li><Link className="linko" to="/contact">Contact</Link></li>              
-              <li><Link className="linko" to="/faqs">FAQs</Link></li>              
-              
+              <li><Link className="linko" to="/about">About</Link></li>
+              <li><Link className="linko" to="/contact">Contact</Link></li>
+              <li><Link className="linko" to="/faqs">FAQs</Link></li>
+
             </ul>
           </div>
 
@@ -57,7 +57,7 @@ const Footer = () => {
             </ul>
           </div>
 
-        
+
         </div>
       </div>
 

@@ -41,9 +41,7 @@ if(window.scrollY){
         <li>
           <Link to="/faqs">FAQs</Link>
         </li>
-        <li>
-          <Link to="/cart">Cart</Link>
-        </li>
+   
       </ul>
       <div className="hamburger" onClick={handleClick}>
         {click ? (<FaTimes size={20} style={{ color: "#fff" }} />) : 
