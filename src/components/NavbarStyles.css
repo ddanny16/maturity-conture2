@@ -71,3 +71,8 @@ display: none;
             transition: 0.7s all ease;
         }
 }
+/* @media screen and (max-width:540px) {
+    .head_pol{
+        font-size: 15px;
+    }
+} */

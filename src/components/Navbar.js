@@ -23,7 +23,7 @@ if(window.scrollY){
    return (
     <div className={color ? "header header-bg" : "header"}>
       <Link to="/">
-        <h1>Maturity Couture</h1>
+        <h1 className="Head_pol">Maturity Couture</h1>
       </Link>
       <ul className={click ? "nav-menu active":"nav-menu"}>
         <li>
