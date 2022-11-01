@@ -134,6 +134,7 @@ const SectionSlide = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img width="100%" height="100%" src={Nonwovenbags} alt="lol" />      </Carousel.Item>
+
         <Carousel.Item>
           <img width="100%" height="100%" src={Normflash} alt="/" />
         </Carousel.Item>
