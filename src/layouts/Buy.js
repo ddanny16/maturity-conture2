@@ -125,8 +125,8 @@ const Buy = () => {
                                 <option value="t-shirt"> T-shirt</option>
                                 <option value="umbrella">Umbrella</option>
                                 <option value="wallclock">Wall Clock</option>
-                                <option value="waterbottle">Water Bottle</option>
                                 <option value="water_flooding_flag">Water Flooding Flag</option>
+                                <option value="waterbottle">Water Bottle</option>
                                 <option value="wovenlsnts">Woven Labels & Tags</option>
                                 <option value="wristbands">Wristbands</option>
 
