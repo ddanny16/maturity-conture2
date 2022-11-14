@@ -9,7 +9,7 @@ const Buy = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_78k9ero', 'template_ej61jzd', form.current, 'nXv22qjACTxRpoQke')
+        emailjs.sendForm('eheh', 'hmm', form.current, 'noni')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -20,7 +20,7 @@ const Buy = () => {
     return (
         <section className="section4" id="consultation">
             <main>
-                <h3>Buy An Item</h3>
+                <h3 className="h3_h3">Buy An Item</h3>
 
                 <form ref={form} onSubmit={sendEmail}>
                     <div className="form-group">
@@ -77,7 +77,75 @@ const Buy = () => {
                         </div>
                     </div>
 
-                   
+
+                    <div class="form-group">
+                        <div>
+                            <label htmlFor="prods">Products</label>
+                        </div>
+                        <div className="input-group">
+                            <select name="products" id="prods" size="1">
+                                <option value="acrylic">Acrylic Button Badge</option>
+                                <option value="beach">Beach Umbrella</option>
+                                <option value="beret">Beret</option>
+                                <option value="button">Buttons</option>
+                                <option value="car_air_fresheners">Car Air Fresheners</option>
+                                <option value="car_sunshades">Car Side Sunshades</option>
+                                <option value="cardigan">Cardigans</option>
+                                <option value="cufflinks">Cufflinks</option>
+                                <option value="cup_mugs">Cup-Mugs</option>
+                                <option value="facecap">Face-Caps</option>
+                                <option value="flags">Flags</option>
+                                <option value="flashdrives">Flashdrives</option>
+                                <option value="gflsgs">GiantFlags</option>
+                                <option value="inflatables">Inflatables</option>
+                                <option value="keychains">KeyChains</option>
+                                <option value="Lanyards">Lanyards</option>
+                                <option value="lpins">Label & Pins</option>
+                                <option value="mousepads">Mouse Pads</option>
+                                <option value="nonwovenshoppingbags">Non Woven Shopping Bags</option>
+                                <option value="memostickers">Note Pad-Memo Sticker</option>
+                                <option value="memostickers">Note Pad-Memo Sticker</option>
+                                <option value="paperbags">Paper Bags</option>
+                                <option value="pen">Pens</option>
+                                <option value="businsesscards">PVC Business Card</option>
+                                <option value="fridgemagsX"> Fridge Magnets</option>
+                                <option value="handfans"> Hand Fans</option>
+                                <option value="clothmath"> Table Clothe Mart</option>
+                                <option value="soccerball"> Soccer Ball</option>
+                                <option value="rollupban"> Rollup Banner</option>
+                                <option value="scarfnmuffler"> Scarf & Muffler</option>
+                                <option value="sock"> Socks</option>
+                                <option value="sportwear"> Sports Wear</option>
+                                <option value="tableclock"> Table Clock</option>
+                                <option value="tieholder"> Tie Holder</option>
+                                <option value="ties"> Ties</option>
+                                <option value="tintray"> Tin Tray</option>
+                                <option value="torches"> Torches</option>
+                                <option value="towels"> Towels</option>
+                                <option value="t-shirt"> T-shirt</option>
+                                <option value="umbrella">Umbrella</option>
+                                <option value="wallclock">Wall Clock</option>
+                                <option value="waterbottle">Water Bottle</option>
+                                <option value="water_flooding_flag">Water Flooding Flag</option>
+                                <option value="wovenlsnts">Woven Labels & Tags</option>
+                                <option value="wristbands">Wristbands</option>
+
+
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div>
+                            <label htmlFor="textarr">Product Description</label>
+                        </div>
+                        <div className="input-group">
+                            <textarea name="textinh" id="textarr" cols="30" rows="1" placeholder="Input your products description"></textarea>
+                        </div>
+                    </div>
+
+
+
 
 
 

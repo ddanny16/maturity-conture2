@@ -15,19 +15,27 @@ form {
 label {
     color: #5b360f;
 }
+.h3_h3{
+    color:#ffff;
+    text-align: center;
+    padding: 20px;
+    text-transform: capitalize;
+    font-size: 30px;
+}
 
-.form-group>div input {
-    padding: 1rem 3rem 1rem 0.4rem;
-    background-color: rgba(33, 43, 81, 0.04);
-    border: 1px solid#5b360f;
-    border-radius: 5px;
-}
-.form-group>div textarea {
-    padding: 1rem 3rem 1rem 0.4rem;
-    background-color: rgba(33, 43, 81, 0.04);
-    border: 1px solid#5b360f;
-    border-radius: 5px;
-}
+// .form-group>div input {
+//     padding: 1rem 3rem 1rem 0.4rem;
+//     background-color: rgb(16 10 10 / 4%);
+//     border: 1px solid #5b360f;
+//     border-radius: 5px;
+// }
+
+// .form-group>div textarea {
+//     padding: 1rem 3rem 1rem 0.4rem;
+//     background-color: rgb(16 10 10 / 4%);
+//     border: 1px solid #5b360f;
+//     border-radius: 5px;
+// }
 
 .form-group>div input:focus {
     border: 2px solid#5b360f;
