@@ -12,8 +12,8 @@ class HeroImg extends Component {
         <img className="into-img" src={this.props.trc} alt="IntroImg" />
       </div>
       <div className="content">
-        <p>{this.props.text}</p>
-        <h1>{this.props.heading}</h1>
+        <p className="props-p">{this.props.text}</p>
+        <h1 className="props-h">{this.props.heading}</h1>
         <div>
           <Link to={this.props.link1a} className="btn">{this.props.link1}</Link>
           <Link to={this.props.link2a} className="btn-light">{this.props.link2}</Link>

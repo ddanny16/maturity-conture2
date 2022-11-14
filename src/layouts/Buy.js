@@ -25,13 +25,13 @@ const Buy = () => {
                 <form ref={form} onSubmit={sendEmail}>
                     <div className="form-group">
                         <div>
-                            <label htmlFor="name">Name</label>
+                            <label htmlFor="name1">Name</label>
                         </div>
                         <div className="input-group">
                             <input
                                 type="text"
-                                name="name"
-                                id="name"
+                                name="name1"
+                                id="name1"
                                 placeholder="Enter your name"
                                 required
                             />
@@ -40,13 +40,13 @@ const Buy = () => {
 
                     <div className="form-group">
                         <div>
-                            <label htmlFor="email">Email</label>
+                            <label htmlFor="email1">Email</label>
                         </div>
                         <div className="input-group">
                             <input
                                 type="email"
-                                name="email"
-                                id="email"
+                                name="email1"
+                                id="email1"
                                 placeholder="Enter your email"
                                 required
                             />
@@ -55,22 +55,22 @@ const Buy = () => {
 
                     <div className="form-group">
                         <div>
-                            <label htmlFor="date">Date</label>
+                            <label htmlFor="date1">Date</label>
                         </div>
                         <div className="input-group">
-                            <input type="date" name="date" id="date" required />
+                            <input type="date" name="date1" id="date1" required />
                         </div>
                     </div>
 
                     <div class="form-group">
                         <div>
-                            <label htmlFor="gender">Gender</label>
+                            <label htmlFor="gender1">Gender</label>
                         </div>
                         <div className="input-group">
                             <input
                                 type="text"
-                                name="gender"
-                                id="gender"
+                                name="gender1"
+                                id="gender1"
                                 placeholder="Enter your gender e.g male"
                                 required
                             />

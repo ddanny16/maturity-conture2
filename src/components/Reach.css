@@ -27,6 +27,7 @@ label {
     background-color: rgb(16, 10, 10 ,0.4);
     border: 1px solid #5b360f;
     border-radius: 5px;
+    cursor:pointer;
 }
 
 .form-group>div textarea {
@@ -42,6 +43,9 @@ label {
 
 .form-group>div textarea:focus {
     border: 2px solid#5b360f;
+}
+input[type="date"]{
+    cursor: pointer;
 }
 
 .input-group {

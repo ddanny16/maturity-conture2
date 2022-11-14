@@ -55,7 +55,7 @@ import Umbrella1 from "../assets/img/Umbrella (1).png"
 import Umbrella2 from "../assets/img/Umbrella (2).png"
 import Wallclock1 from "../assets/img/wallclock (1).png"
 
-import WovenBadge2 from "../assets/img/wovenbadges (2).png"
+import WovenBadge2 from "../assets/img/wovenbadges (2).jpg"
 import Wristbands1 from "../assets/img/wristbands (1).png"
 
 
@@ -66,7 +66,7 @@ const AllData = [
         imgsrc: Flashy,
         title: "Flash Drive",
         text: "8gb Capsule Flashdrive",
-        price: "10,000Naira",
+        price: "10,000",
         buy: ""
     },
 
@@ -76,7 +76,7 @@ const AllData = [
         imgsrc: Flashy2,
         title: "Flash Drive",
         text: "8gb Can Shaped Flashdrive",
-        price: "6,000Naira",
+        price: "6,000",
         buy: ""
     },
     {
@@ -85,7 +85,7 @@ const AllData = [
         imgsrc: Abb11,
         title: "Acrylic Button badge",
         text: "Button Badge",
-        price: "6,000Naira",
+        price: "6,000",
         buy: ""
     },
     {
@@ -94,7 +94,7 @@ const AllData = [
         imgsrc: Abb12,
         title: "Acrylic Button badge",
         text: "Button Badge",
-        price: "5,000Naira",
+        price: "5,000",
         buy: ""
     },
     {
@@ -103,7 +103,7 @@ const AllData = [
         imgsrc: Abb14,
         title: "Acrylic Button badge",
         text: "Button Badge",
-        price: "5,000Naira",
+        price: "5,000",
         buy: ""
     },
     {
@@ -112,7 +112,7 @@ const AllData = [
         imgsrc: Busines,
         title: "Cards",
         text: "Business Card",
-        price: "5,000Naira",
+        price: "5,000",
         buy: ""
     },
     {
@@ -121,7 +121,7 @@ const AllData = [
         imgsrc: Barmat,
         title: "Barmats",
         text: "Guiness Barmat",
-        price: "8,000Naira",
+        price: "8,000",
         buy: ""
     },
     {
@@ -130,7 +130,7 @@ const AllData = [
         imgsrc: BeachUmbrella,
         title: "Beach Umbrella",
         text: " Pepsi Beach Umbrella",
-        price: "11,000Naira",
+        price: "11,000",
         buy: ""
     },
     {
@@ -139,7 +139,7 @@ const AllData = [
         imgsrc: Abb11,
         title: "Acrylic Button badge",
         text: "Button Badge",
-        price: "6,000Naira",
+        price: "6,000",
         buy: ""
     },
     {
@@ -148,7 +148,7 @@ const AllData = [
         imgsrc: Berret,
         title: "Beret",
         text: "Blue Berret side view",
-        price: "3,000Naira",
+        price: "3,000",
         buy: ""
     },
     {
@@ -157,7 +157,7 @@ const AllData = [
         imgsrc: Btn,
         title: "Buttons",
         text: "Normal buttons",
-        price: "2,000 Naira",
+        price: "2,000 ",
         buy: ""
     },
     {
@@ -166,7 +166,7 @@ const AllData = [
         imgsrc: Btn2,
         title: "Buttons",
         text: "Custom Color Printed",
-        price: "2,000 Naira",
+        price: "2,000 ",
         buy: ""
     },
     {
@@ -175,7 +175,7 @@ const AllData = [
         imgsrc: Caf,
         title: "Air Fresheners",
         text: " Car Air Fresheners",
-        price: "700Naira",
+        price: "700",
         buy: ""
     },
     {
@@ -184,7 +184,7 @@ const AllData = [
         imgsrc: Cardigan,
         title: "Cardigan",
         text: "Striped Cardigan",
-        price: "3,000Naira",
+        price: "3,000",
         buy: ""
     },
     {
@@ -193,7 +193,7 @@ const AllData = [
         imgsrc: Carshades,
         title: "Car Sunshades",
         text: "Car Side Sunshades",
-        price: "2,500Naira",
+        price: "2,500",
         buy: ""
     },
     {
@@ -202,7 +202,7 @@ const AllData = [
         imgsrc: Cmug,
         title: "Mug",
         text: "Ceramic Mug",
-        price: "2,000Naira",
+        price: "2,000",
         buy: ""
     },
     {
@@ -211,7 +211,7 @@ const AllData = [
         imgsrc: Cufflinks,
         title: "Cufflinks",
         text: "",
-        price: "5,000Naira",
+        price: "5,000",
         buy: ""
     },
     {
@@ -220,7 +220,7 @@ const AllData = [
         imgsrc: Facecap,
         title: "Facecap",
         text: "",
-        price: "3,000Naira",
+        price: "3,000",
         buy: ""
     },
     {
@@ -229,7 +229,7 @@ const AllData = [
         imgsrc: Flag,
         title: "Flag",
         text: "",
-        price: "4,000Naira",
+        price: "4,000",
         buy: ""
     },
     {
@@ -238,7 +238,7 @@ const AllData = [
         imgsrc: Fridgemag,
         title: "Frige Magnet",
         text: "Fridge Magnet",
-        price: "1,200Naira",
+        price: "1,200",
         buy: ""
     },
     {
@@ -247,7 +247,7 @@ const AllData = [
         imgsrc: Handfan,
         title: "Hand Fan",
         text: "Negotiable Price",
-        price: "2,000Naira",
+        price: "2,000",
         buy: ""
     },
     {
@@ -256,7 +256,7 @@ const AllData = [
         imgsrc: Inflatable2,
         title: "Inflatable",
         text: "",
-        price: "5,000Naira",
+        price: "5,000",
         buy: ""
     },
     {
@@ -265,7 +265,7 @@ const AllData = [
         imgsrc: Keychaina,
         title: "KeyChain",
         text: "Acrylick KeyChain",
-        price: "3,000Naira",
+        price: "3,000",
         buy: ""
     },
     {
@@ -274,7 +274,7 @@ const AllData = [
         imgsrc: Keychainf,
         title: "KeyChain",
         text: "Fabric Cardigan",
-        price: "2,000Naira",
+        price: "2,000",
         buy: ""
     },
     {
@@ -283,7 +283,7 @@ const AllData = [
         imgsrc: Keychainl,
         title: "KeyChain",
         text: "Leather Cardigan",
-        price: "2,000Naira",
+        price: "2,000",
         buy: ""
     },
     {
@@ -292,7 +292,7 @@ const AllData = [
         imgsrc: Ltag2,
         title: "Label and Tags",
         text: "",
-        price: "4,000Naira",
+        price: "4,000",
         buy: ""
     },
     {
@@ -301,7 +301,7 @@ const AllData = [
         imgsrc: Lanyards2,
         title: "Cardigan",
         text: "Striped Cardigan",
-        price: "3,000Naira",
+        price: "3,000",
         buy: ""
     },
     {
@@ -310,7 +310,7 @@ const AllData = [
         imgsrc: Lapelpins4,
         title: "Lapelpins",
         text: "",
-        price: "2,000Naira",
+        price: "2,000",
         buy: ""
     },
     {
@@ -319,7 +319,7 @@ const AllData = [
         imgsrc: Mousepads2,
         title: "Mousepads",
         text: " ",
-        price: "₦ 2,900",
+        price: " 2,900",
         buy: ""
     },
     {
@@ -328,7 +328,7 @@ const AllData = [
         imgsrc: Nonwovenbags2,
         title: "Non Woven Bags",
         text: "",
-        price: "₦7,350",
+        price: "7,350",
         buy: ""
     },
     {
@@ -337,7 +337,7 @@ const AllData = [
         imgsrc: Normflash3,
         title: "Flash Drives",
         text: "",
-        price: "₦ 6,970",
+        price: " 6,970",
         buy: ""
     },
     {
@@ -346,7 +346,7 @@ const AllData = [
         imgsrc: Notepad,
         title: "Notepad Memo",
         text: "",
-        price: "₦ 1,950",
+        price: " 1,950",
         buy: ""
     },
     {
@@ -355,7 +355,7 @@ const AllData = [
         imgsrc: Paperbags2,
         title: "Paperbags",
         text: " ",
-        price: "₦ 3,000",
+        price: " 3,000",
         buy: ""
     },
     {
@@ -364,7 +364,7 @@ const AllData = [
         imgsrc: Pens3,
         title: "Pens",
         text: "",
-        price: "₦ 1,320",
+        price: "1,320",
         buy: ""
     },
     {
@@ -373,7 +373,7 @@ const AllData = [
         imgsrc: Plasticwaterb2,
         title: "Plastic Water Bottle",
         text: "",
-        price: "₦ 4,800",
+        price: " 4,800",
         buy: ""
     },
     {
@@ -382,7 +382,7 @@ const AllData = [
         imgsrc: Pmug4,
         title: "Plastic Mug",
         text: "",
-        price: "₦ 4,890",
+        price: " 4,890",
         buy: ""
     },
     {
@@ -391,7 +391,7 @@ const AllData = [
         imgsrc: Rollupban3,
         title: "Rollup Banner",
         text: "",
-        price: " ₦ 26,900",
+        price: "  26,900",
         buy: ""
     },
     {
@@ -400,7 +400,7 @@ const AllData = [
         imgsrc: Scarfmuf3,
         title: "Scarf and Muffler",
         text: "",
-        price: " ₦ 2,329",
+        price: "  2,329",
         buy: ""
     },
     {
@@ -409,7 +409,7 @@ const AllData = [
         imgsrc: Smug,
         title: "Stainless Mug",
         text: "",
-        price: " ₦ 5,456",
+        price: "  5,456",
         buy: ""
     },
     {
@@ -418,7 +418,7 @@ const AllData = [
         imgsrc: Soccer4,
         title: "Soccer Ball",
         text: "",
-        price: "₦  21,000",
+        price: "  21,000",
         buy: ""
     },
     {
@@ -427,7 +427,7 @@ const AllData = [
         imgsrc: Sockj,
         title: "Socks",
         text: "",
-        price: "₦ 1,290",
+        price: " 1,290",
         buy: ""
     },
     {
@@ -436,7 +436,7 @@ const AllData = [
         imgsrc: Sportswear2,
         title: "SportsWear",
         text: "",
-        price: "₦ 6,880 ",
+        price: " 6,880 ",
         buy: ""
     },
     {
@@ -445,7 +445,7 @@ const AllData = [
         imgsrc: Stainless2,
         title: "Stainless Water Bottle",
         text: "",
-        price: "₦ 2,230",
+        price: " 2,230",
         buy: ""
     },
     {
@@ -463,7 +463,7 @@ const AllData = [
         imgsrc: Tshirts2,
         title: "T-Shirts",
         text: "",
-        price: "₦ 4,000",
+        price: " 4,000",
         buy: ""
     },
     {
@@ -472,7 +472,7 @@ const AllData = [
         imgsrc: Tableclock,
         title: "Tableclock",
         text: "",
-        price: "₦ 3,200 ",
+        price: " 3,200 ",
         buy: ""
     },
     {
@@ -481,7 +481,7 @@ const AllData = [
         imgsrc: Ties,
         title: "Cardigan",
         text: "",
-        price: " ₦ 3,000",
+        price: "  3,000",
         buy: ""
     },
     {
@@ -490,7 +490,7 @@ const AllData = [
         imgsrc: Tieclip,
         title: "Tie-Clip",
         text: "",
-        price: " ₦ 2,000",
+        price: "  2,000",
         buy: ""
     },
     {
@@ -499,7 +499,7 @@ const AllData = [
         imgsrc: Tintry,
         title: "Tin Tray",
         text: "",
-        price: "₦ 3,450",
+        price: " 3,450",
         buy: ""
     },
     {
@@ -508,7 +508,7 @@ const AllData = [
         imgsrc: Tintry2,
         title: "Tin Tray",
         text: "",
-        price: "₦  3,659",
+        price: "  3,659",
         buy: ""
     },
     {
@@ -517,7 +517,7 @@ const AllData = [
         imgsrc: Torches,
         title: "Torch",
         text: "",
-        price: " ₦ 3,200",
+        price: "  3,200",
         buy: ""
     },
     {
@@ -526,7 +526,7 @@ const AllData = [
         imgsrc: Torches2,
         title: "Torch",
         text: "",
-        price: " ₦ 3,200",
+        price: "  3,200",
         buy: ""
     },
     {
@@ -535,7 +535,7 @@ const AllData = [
         imgsrc: Towel1,
         title: "Towel",
         text: "",
-        price: " ₦ 4,600",
+        price: "  4,600",
         buy: ""
     },
     {
@@ -544,7 +544,7 @@ const AllData = [
         imgsrc: Towel2,
         title: "Towel",
         text: "",
-        price: "₦ 4,209",
+        price: " 4,209",
         buy: ""
     },
     {
@@ -553,7 +553,7 @@ const AllData = [
         imgsrc: Umbrella1,
         title: "Umbrella",
         text: "",
-        price: " ₦ 2,100",
+        price: "  2,100",
         buy: ""
     },
     {
@@ -562,7 +562,7 @@ const AllData = [
         imgsrc: Umbrella2,
         title: "Cardigan",
         text: "",
-        price: "₦7,000",
+        price: "7,000",
         buy: ""
     },
     {
@@ -571,7 +571,7 @@ const AllData = [
         imgsrc: Wallclock1,
         title: "WallClock",
         text: "",
-        price: "₦3,000",
+        price: "3,000",
         buy: ""
     },
     {
@@ -580,7 +580,7 @@ const AllData = [
         imgsrc: WovenBadge2,
         title: "Woven Badge",
         text: "",
-        price: " ₦3,000",
+        price: " 3,000",
         buy: ""
     },
     {
@@ -589,7 +589,7 @@ const AllData = [
         imgsrc: Wristbands1,
         title: "Wristbands",
         text: "",
-        price: "3,000Naira",
+        price: "3,000",
         buy: ""
     }
 ]
