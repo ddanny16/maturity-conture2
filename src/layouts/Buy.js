@@ -9,7 +9,7 @@ const Buy = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('eheh', 'hmm', form.current, 'noni')
+        emailjs.sendForm('service_f0sum4n', 'template_7h21qj4', form.current, 'nXv22qjACTxRpoQke')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -83,7 +83,7 @@ const Buy = () => {
                             <label htmlFor="prods">Products</label>
                         </div>
                         <div className="input-group">
-                            <select name="products" id="prods" size="1">
+                            <select name="prods" id="prods" size="1">
                                 <option value="acrylic">Acrylic Button Badge</option>
                                 <option value="beach">Beach Umbrella</option>
                                 <option value="beret">Beret</option>
@@ -140,7 +140,7 @@ const Buy = () => {
                             <label htmlFor="textarr">Product Description</label>
                         </div>
                         <div className="input-group">
-                            <textarea name="textinh" id="textarr" cols="30" rows="1" placeholder="Input your products description"></textarea>
+                            <textarea name="textarr" id="textarr" cols="30" rows="1" placeholder="Input your products description"></textarea>
                         </div>
                     </div>
 

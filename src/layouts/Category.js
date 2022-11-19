@@ -17,7 +17,7 @@ const Category = (props) => {
           </div>
           <div className="btns_tag">
                       <button className="btn1">₦{props.price}</button>
-            <button className="btn2">{props.buy}Buy</button>
+            <button className="btn2"><a href="#name1">{props.buy}Buy</a></button>
           </div>
         </div>
        
